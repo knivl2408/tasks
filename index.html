@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form">
+      <form id="auth" action="index.html" method="GET">
+        <p>
+          <input
+            type="text"
+            id="user-name"
+            name="имя"
+            value=""
+            placeholder="Введите имя"
+          />
+        </p>
+        <p>
+          <input
+            type="text"
+            name="фамилия"
+            value=""
+            id="sirname"
+            placeholder="Введите фамилию"
+          />
+        </p>
+        <p>
+          <input
+            type="text"
+            name="отчество"
+            value=""
+            id="fathername"
+            placeholder="Введите отчество"
+          />
+        </p>
+        <p>
+          <input
+            type="text"
+            name="логин"
+            value=""
+            id="login"
+            placeholder="Логин"
+          />
+        </p>
+        <p>
+          <input
+            type="text"
+            name="email"
+            value=""
+            id="email"
+            placeholder="Email"
+          />
+        </p>
+        <p>
+          <input
+            type="password"
+            name="пароль"
+            value=""
+            id="password"
+            placeholder="Пароль"
+          />
+        </p>
+        <p>
+          <input
+            type="password"
+            name="пароль-2"
+            value=""
+            id="password-2"
+            placeholder="Повторите пароль"
+          />
+        </p>
+        <p>
+          Ваш пол:
+        </p>
+        <p><input type="radio" name="gender" value="man" />Мужской</p>
+        <p><input type="radio" name="gender" value="woman" />Женский</p>
+        <p>
+          Ваши увлечения:
+        </p>
+        <p><input type="checkbox" name="увлечения" value="спорт" />Спорт</p>
+        <p>
+          <input type="checkbox" name="увлечения" value="рисование" />Рисование
+        </p>
+        <p><input type="checkbox" name="увлечения" value="пение" />Пение</p>
+        <p>
+          <input type="checkbox" name="увлечения" value="музыка" />Музыкальные
+          инструменты
+        </p>
+        <p>
+          <input type="checkbox" name="увлечения" value="монтаж" />Монтаж видео
+        </p>
+        <p>
+          <input type="checkbox" name="увлечения" value="иняз" />Иностранные
+          языки
+        </p>
+        <p>
+          <input type="checkbox" name="увлечения" value="книги" />Чтение книг
+        </p>
+        <p><input type="checkbox" name="увлечения" value="готовка" />Готовка</p>
+        <p>
+          <input type="checkbox" name="увлечения" value="блог" />Ведение блога
+        </p>
+        <p><input type="checkbox" name="увлечения" value="игры" />Игры</p>
+        <p>Обо мне:</p>
+        <textarea
+          placeholder="Расскажите о себе"
+          name="обо_мне"
+          value=""
+        ></textarea>
+        <p>Ваша религия</p>
+        <select name="религия">
+          <option value="христианство">Христианство</option>
+          <option value="ислам">Ислам</option>
+          <option value="буддизм">Буддизм</option>
+          <option value="атеист">Атеист</option>
+          <option value="none">Ни одна из вышеперечисленных</option>
+        </select>
+        <p><input type="submit" /></p>
+        <p><input type="reset" value="Очистить" /></p>
+      </form>
+    </div>
+  </body>
+</html>
